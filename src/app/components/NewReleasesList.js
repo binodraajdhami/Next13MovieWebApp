@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export default function NewReleasesList() {
@@ -9,7 +10,7 @@ export default function NewReleasesList() {
                         <div>
                             <div className="new-releases-item-thumbnail">
                                 <div className="movie-card-thumbnail">
-                                    <img src="/images/movie_poster_1.jpg" alt="" />
+                                    <Image src="/images/movie_poster_1.jpg" alt="" width={261} height={387} />
                                     <Link href="/movies/movie-details" className="movie-link">
                                         <span>View Details</span>
                                     </Link>
@@ -21,7 +22,7 @@ export default function NewReleasesList() {
                                 <h4>Benched</h4>
                                 <span>Comedy</span>
                                 <ul className="rating-info">
-                                    <li><img src="/images/star.svg" alt="" /> 7.1</li>
+                                    <li><Image src="/images/star.svg" alt="" width={16} height={16} /> 7.1</li>
                                     <li>FHD</li>
                                     <li>18+</li>
                                 </ul>
@@ -35,7 +36,7 @@ export default function NewReleasesList() {
                         <div>
                             <div className="new-releases-item-thumbnail">
                                 <div className="movie-card-thumbnail">
-                                    <img src="/images/movie_poster_2.jpg" alt="" />
+                                    <Image src="/images/movie_poster_2.jpg" alt="" width={261} height={387} />
                                     <Link href="/movies/movie-details" className="movie-link">
                                         <span>View Details</span>
                                     </Link>
@@ -47,7 +48,7 @@ export default function NewReleasesList() {
                                 <h4>Whitney</h4>
                                 <span>Romance, Drama, Music</span>
                                 <ul className="rating-info">
-                                    <li><img src="/images/star.svg" alt="" /> 6.3</li>
+                                    <li><Image src="/images/star.svg" alt="" width={16} height={16} /> 6.3</li>
                                     <li>HD</li>
                                     <li>13+</li>
                                 </ul>
@@ -61,7 +62,7 @@ export default function NewReleasesList() {
                         <div>
                             <div className="new-releases-item-thumbnail">
                                 <div className="movie-card-thumbnail">
-                                    <img src="/images/movie_poster_3.jpg" alt="" />
+                                    <Image src="/images/movie_poster_3.jpg" alt="" width={261} height={387} />
                                     <Link href="/movies/movie-details" className="movie-link">
                                         <span>View Details</span>
                                     </Link>
@@ -73,7 +74,7 @@ export default function NewReleasesList() {
                                 <h4>Blindspotting</h4>
                                 <span>Comedy, Drama</span>
                                 <ul className="rating-info">
-                                    <li><img src="/images/star.svg" alt="" /> 7.9</li>
+                                    <li><Image src="/images/star.svg" alt="" width={16} height={16} /> 7.9</li>
                                     <li>HD</li>
                                     <li>16+</li>
                                 </ul>
@@ -87,7 +88,7 @@ export default function NewReleasesList() {
                         <div>
                             <div className="new-releases-item-thumbnail">
                                 <div className="movie-card-thumbnail">
-                                    <img src="/images/movie_poster_4.jpg" alt="" />
+                                    <Image src="/images/movie_poster_4.jpg" alt="" width={261} height={387} />
                                     <Link href="/movies/movie-details" className="movie-link">
                                         <span>View Details</span>
                                     </Link>
@@ -99,7 +100,7 @@ export default function NewReleasesList() {
                                 <h4>I Dream in Another Language</h4>
                                 <span>Action, Triler</span>
                                 <ul className="rating-info">
-                                    <li><img src="/images/star.svg" alt="" /> 8.4</li>
+                                    <li><Image src="/images/star.svg" alt="" width={16} height={16} /> 8.4</li>
                                     <li>HD</li>
                                     <li>12+</li>
                                 </ul>
@@ -113,7 +114,7 @@ export default function NewReleasesList() {
                         <div>
                             <div className="new-releases-item-thumbnail">
                                 <div className="movie-card-thumbnail">
-                                    <img src="/images/movie_poster_5.jpg" alt="" />
+                                    <Image src="/images/movie_poster_5.jpg" alt="" width={261} height={387} />
                                     <Link href="/movies/movie-details" className="movie-link">
                                         <span>View Details</span>
                                     </Link>
@@ -125,7 +126,7 @@ export default function NewReleasesList() {
                                 <h4>Benched</h4>
                                 <span>Comedy</span>
                                 <ul className="rating-info">
-                                    <li><img src="/images/star.svg" alt="" /> 7.1</li>
+                                    <li><Image src="/images/star.svg" alt="" width={16} height={16} /> 7.1</li>
                                     <li>HD</li>
                                     <li>16+</li>
                                 </ul>
@@ -139,7 +140,7 @@ export default function NewReleasesList() {
                         <div>
                             <div className="new-releases-item-thumbnail">
                                 <div className="movie-card-thumbnail">
-                                    <img src="/images/movie_poster_6.jpg" alt="" />
+                                    <Image src="/images/movie_poster_6.jpg" alt="" width={261} height={387} />
                                     <Link href="/movies/movie-details" className="movie-link">
                                         <span>View Details</span>
                                     </Link>
@@ -151,7 +152,7 @@ export default function NewReleasesList() {
                                 <h4>I Dream in Another Language</h4>
                                 <span>Action, Triler</span>
                                 <ul className="rating-info">
-                                    <li><img src="/images/star.svg" alt="" /> 8.4</li>
+                                    <li><Image src="/images/star.svg" alt="" width={16} height={16} /> 8.4</li>
                                     <li>HD</li>
                                     <li>16+</li>
                                 </ul>

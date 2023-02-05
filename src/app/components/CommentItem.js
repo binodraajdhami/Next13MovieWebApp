@@ -1,9 +1,11 @@
+import Image from "next/image";
+
 export default function CommentItem() {
     return (
         <div className="comment-item">
             <div className="comment-user">
                 <div>
-                    <img src="/images/user.svg" alt="" />
+                    <Image src="/images/user.svg" alt="" width={50} height={50} />
                 </div>
                 <div>
                     <h4>John Doe</h4>
