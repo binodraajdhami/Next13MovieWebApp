@@ -1,18 +1,17 @@
 export default function AdminDashboard() {
     return (
-        <section className="content">
-            <div className="container">
-                <div className="content__container">
-                    <div className="page-title">
-                        <h1>Admin Dashboard</h1>
-                        <div className="page_title_bar"></div>
+        <section class="admin-dashboard">
+            <div class="container-fluid">
+                <div class="admin-dashboard-header">
+                    <h2>Admin Dashboard</h2>
+                </div>
+                <div className="admin-dashboard-body">
+                    <div class="admin-dashboard-sidebar">
+                        <h2>Side Menu</h2>
                     </div>
-                    <div className="page-content">
-                        <div className="about-page-content">
-                            <p>Under Development Proccess...</p>
-                        </div>
+                    <div class="admin-dashboard-main">
+                        <h2>Dashboard</h2>
                     </div>
-
                 </div>
             </div>
         </section>

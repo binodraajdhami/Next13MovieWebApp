@@ -392,7 +392,7 @@ li {
 
 /* ============================== Footer Section */
 .footer {
-    padding: 50px 0;
+    padding: 50px 0 20px;
     background: #28282d;
     z-index: 1;
     border-top: #ff55a5 solid 1px;
@@ -465,6 +465,18 @@ li {
 
 .social-link li a:hover svg {
     fill: #ff55a5;
+}
+
+.copyright {
+    margin-top: 50px;
+    padding-top: 20px;
+    border-top: rgba(255, 255, 255, 0.1) solid 1px;
+    text-align: center;
+}
+
+.copyright p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
 }
 
 /* ============================== Pages */

@@ -92,6 +92,11 @@ export default function Footer() {
                             </ul>
                         </div>
                     </div>
+                    <div className="col-sm-12">
+                        <div className="copyright">
+                            <p>© {new Date().getFullYear()} - NextJS 13 Movie App. Developed by: Binod Raj Dhami.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </footer>
