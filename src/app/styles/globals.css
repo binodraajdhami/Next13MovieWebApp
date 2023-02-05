@@ -479,6 +479,51 @@ li {
     font-size: 16px;
 }
 
+/* ============================== Goto Top Sections */
+.scroll-to-top {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    z-index: 99999;
+}
+
+.scroll-to-top .btn-gototop {
+    position: relative;
+    display: inline-block;
+    padding: 5px;
+    background-image: linear-gradient(90deg, #ff55a5 0%, #ff5860 100%);
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 5px;
+    border: #ff55a5 solid 2px;
+    transition: all linear 0.3s;
+}
+
+.scroll-to-top .btn-gototop:hover {
+    box-shadow: 0 5px 15px -10px #000;
+    transform: translateY(-5px);
+}
+
+.scroll-to-top .btn-gototop::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 0;
+    height: 100%;
+    background: #ff5860;
+    z-index: -1;
+    transition: all linear 0.3s;
+}
+
+.scroll-to-top .btn-gototop:hover::before {
+    left: 0;
+    width: 100%;
+}
+
 /* ============================== Pages */
 .content {
     padding-top: 130px;

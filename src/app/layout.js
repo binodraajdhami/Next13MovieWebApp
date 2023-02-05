@@ -3,6 +3,7 @@ import './styles/globals.css';
 
 import Header from './components/Header';
 import Footer from './components/Footer';
+import GoToTop from "./components/GoToTop";
 
 export default function RootLayout({ children }) {
     return (
@@ -12,6 +13,7 @@ export default function RootLayout({ children }) {
                 <Header />
                 {children}
                 <Footer />
+                <GoToTop />
             </body>
         </html>
     );
