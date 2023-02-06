@@ -523,7 +523,7 @@ hr {
 .scroll-to-top .btn-gototop {
     position: relative;
     display: inline-block;
-    padding: 5px;
+    padding: 5px 5px 1px;
     background-image: linear-gradient(90deg, #ff55a5 0%, #ff5860 100%);
     color: #fff;
     font-size: 14px;
@@ -851,7 +851,7 @@ hr {
     font-size: 30px;
     margin-bottom: 30px;
     padding-bottom: 15px;
-    border-bottom: rgba(255, 255, 255, 0.5) solid 1px;
+    border-bottom: #ff55a5 solid 1px;
 }
 
 .about-page-content h3 {
@@ -1189,6 +1189,25 @@ hr {
 
 /* ============================== Admin Dashboard Page */
 .admin-dashboard {
-    padding: 130px 0 50px;
-    background: #28282d;
+    padding: 100px 0 50px;
+}
+
+.admin-dashboard-body {
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+
+.admin-dashboard-sidebar {
+    padding: 30px;
+    width: 300px;
+    margin-right: 30px;
+    background: rgb(0, 0, 0, 0.1);
+    transition: 0.4s ease;
+    box-shadow: rgb(0 0 0 / 30%) 5px 0 20px 0px;
+}
+
+.admin-dashboard-main {
+    background: rgb(0, 0, 0, 0.1);
+    width: 100%;
 }
