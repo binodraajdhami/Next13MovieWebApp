@@ -1,3 +1,4 @@
+import Link from "next/link";
 import AboutFeaturesList from "../about/AboutFeaturesList";
 
 export default function Pricing() {
@@ -11,7 +12,56 @@ export default function Pricing() {
                     </div>
                     <div className="page-content">
                         <div className="pricing-page-list">
-                            <p>Under Development Proccess...</p>
+                            <div className="row">
+                                <div className="col-sm-4">
+                                    <div className="pricing-item">
+                                        <h4>
+                                            <span>Basic</span>
+                                            <span>Free</span>
+                                        </h4>
+                                        <ul>
+                                            <li>7 days</li>
+                                            <li>720p Resolution</li>
+                                            <li>Limited Availability</li>
+                                            <li>Desktop Only</li>
+                                            <li>Limited Support</li>
+                                        </ul>
+                                        <button>Choose Plan</button>
+                                    </div>
+                                </div>
+                                <div className="col-sm-4">
+                                    <div className="pricing-item center">
+                                        <h4>
+                                            <span>Premium</span>
+                                            <span>$19.99</span>
+                                        </h4>
+                                        <ul>
+                                            <li>1 Month</li>
+                                            <li>Full HD</li>
+                                            <li>Lifetime Availability</li>
+                                            <li>TV & Desktop</li>
+                                            <li>24/7 Support</li>
+                                        </ul>
+                                        <button>Choose Plan</button>
+                                    </div>
+                                </div>
+                                <div className="col-sm-4">
+                                    <div className="pricing-item">
+                                        <h4>
+                                            <span>Cinematic</span>
+                                            <span>$39.99</span>
+                                        </h4>
+                                        <ul>
+                                            <li>2 Months</li>
+                                            <li>Ultra HD</li>
+                                            <li>Lifetime Availability</li>
+                                            <li>Any Device</li>
+                                            <li>24/7 Support</li>
+                                        </ul>
+                                        <button>Choose Plan</button>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div className="pricing-page-content">
                             <h3>Our Features</h3>
