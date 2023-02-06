@@ -32,6 +32,16 @@ li {
     padding: 0px;
 }
 
+/* ============================== Slickk Slider */
+.slick-slide img {
+    display: inline-block;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: #ff55a5;
+}
+
 /* ============================== Header Section */
 .header {
     position: fixed;
@@ -71,7 +81,7 @@ li {
 }
 
 .header nav:first-child ul li a {
-    margin-top: 11px;
+    margin-top: 16px;
     margin-right: 30px;
 }
 
@@ -81,7 +91,7 @@ li {
 
 .header nav:last-child ul li a {
     padding: 10px 30px;
-    margin-top: 2px;
+    margin-top: 6px;
     margin-left: 10px;
     border-radius: 5px;
     background-image: linear-gradient(90deg, #ff55a5 0%, #ff5860 100%);
@@ -119,6 +129,10 @@ li {
 
 .movie-banner-title h2 span {
     font-weight: 700;
+}
+
+.movie-banner-list .slick-slide {
+    padding: 15px;
 }
 
 /* ============================== Movie Card Section */
@@ -215,7 +229,7 @@ li {
 .movie-card-detail .rating img {
     position: relative;
     width: 16px;
-    top: -2px;
+    top: 3px;
 }
 
 .movie-card:hover {
@@ -335,7 +349,7 @@ li {
 .new-releases-item-content .rating-info li img {
     position: relative;
     width: 16px;
-    top: -2px;
+    top: 3px;
 }
 
 .new-releases-item-content p {
@@ -389,6 +403,11 @@ li {
     background-image: linear-gradient(90deg, #ff55a5 0%, #ff5860 100%);
     box-shadow: 0 0 20px 0 rgb(255 88 96 / 50%);
 }
+
+.movie-premiere-content .slick-slide {
+    padding: 5px;
+}
+
 
 /* ============================== Footer Section */
 .footer {
@@ -500,6 +519,7 @@ li {
     border-radius: 5px;
     border: #ff55a5 solid 2px;
     transition: all linear 0.3s;
+    cursor: pointer;
 }
 
 .scroll-to-top .btn-gototop:hover {
@@ -979,6 +999,14 @@ li {
     color: #c22b3c;
     text-decoration: none;
 }
+
+/* ============================== Pricing Page */
+
+
+
+
+
+
 
 /* ============================== Admin Dashboard Page */
 .admin-dashboard {
