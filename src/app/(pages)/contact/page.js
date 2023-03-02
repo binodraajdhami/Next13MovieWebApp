@@ -1,9 +1,6 @@
-"use client";
-import { motion } from "framer-motion";
-
 export default function Contact() {
     return (
-        <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.75 }} class="content">
+        <section class="content">
             <div class="container">
                 <div class="content__container">
                     <div className="page-title">
@@ -72,6 +69,6 @@ export default function Contact() {
                     </div>
                 </div>
             </div>
-        </motion.div>
+        </section>
     );
 }
