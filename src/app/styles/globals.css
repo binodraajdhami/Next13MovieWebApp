@@ -974,6 +974,14 @@ hr {
     border-radius: 4px;
     padding: 0 20px;
     margin-bottom: 15px;
+    outline: #ff55a5;
+}
+
+.auth-form .form-control:focus,
+.auth-form textarea.form-control:focus,
+.auth-form .form-control:hover,
+.auth-form textarea.form-control:hover {
+    border-color: #ff55a5;
 }
 
 .auth-form .btn {
@@ -992,6 +1000,7 @@ hr {
     font-weight: 500;
     letter-spacing: 0.6px;
     margin-top: 20px;
+    border: none;
 }
 
 .auth-form .btn:hover {
@@ -1188,8 +1197,8 @@ hr {
 }
 
 /* ============================== Admin Dashboard Page */
-.admin-dashboard {
-    padding: 100px 0 50px;
+.admin-dashboard .container-fluid {
+    padding: 0;
 }
 
 .admin-dashboard-body {
@@ -1210,4 +1219,27 @@ hr {
 .admin-dashboard-main {
     background: rgb(0, 0, 0, 0.1);
     width: 100%;
+}
+
+.admin-dashboard-header {
+    text-align: center;
+}
+
+.admin-dashboard-header h2 {
+    padding: 30px;
+    color: #fff;
+    background: #ff55a5;
+    text-align: center;
+}
+
+.admin-dashboard-header a {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 30px 0;
+    color: #fff;
+    font-size: 18px;
+    background: #ff55a5;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
 }

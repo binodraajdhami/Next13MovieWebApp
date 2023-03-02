@@ -1,4 +1,5 @@
-"use client"
+"use client";
+import { motion } from "framer-motion";
 import { useState } from "react";
 import Link from "next/link";
 
@@ -10,7 +11,7 @@ import PhotosList from "@/app/components/PhotosList";
 export default function MovieDetails() {
     const [activeTab, setActiveTab] = useState('comments');
     return (
-        <section className="content movie-details-content">
+        <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.75 }} className="content movie-details-content">
             <div className="movie-details">
                 <div className="container">
                     <h2>I Dream in Another Language</h2>
@@ -107,6 +108,6 @@ export default function MovieDetails() {
                     </div>
                 </div>
             </div>
-        </section >
+        </motion.div >
     );
 }

@@ -12,7 +12,8 @@ export default function MovieList() {
         slidesToScroll: 1,
         autoplay: true,
         pauseOnHover: true,
-        autoplaySpeed: 5000,
+        speed: 3000,
+        autoplaySpeed: 3000,
         swipeToSlide: true,
         cssEase: "linear"
     };
