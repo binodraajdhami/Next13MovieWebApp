@@ -13,11 +13,6 @@ import GoToTop from "./components/GoToTop";
 
 export default function RootLayout({ children }) {
     const pathname = usePathname();
-
-    useEffect(() => {
-        AOS.init();
-    }, []);
-
     return (
         <html lang="en">
             <head />
