@@ -1,11 +1,11 @@
 export default function PrivacyPolicy() {
     return (
-        <section class="content">
-            <div class="container">
-                <div class="content__container">
+        <section className="content">
+            <div className="container">
+                <div className="content__container">
                     <div className="page-title">
                         <h1>Privacy & Policy</h1>
-                        <div class="page_title_bar"></div>
+                        <div className="page_title_bar"></div>
                     </div>
                     <div className="page-content">
                         <div className="about-page-content">

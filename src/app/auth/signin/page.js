@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function SignIn() {
     return (
-        <section class="auth">
+        <section className="auth">
             <form className="auth-form">
                 <div className="auth-form-logo">
                     <Image src="/images/logo.png" alt="" width={127} height={38} />
